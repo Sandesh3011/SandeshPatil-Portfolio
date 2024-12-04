@@ -19,7 +19,7 @@ function Background(){
 				As a developer, I enjoy bridging the gap between functionality and design. My goal is to always build applications that are scalable and efficient under the hood while providing engaging, pixel-perfect user experiences. In addition, I am highly responsive to client needs and also committed to helping people realize their vision.
 			</p>
 
-			<a className="status" href="images/SandeshPatilResume.pdf" target="_blank"> 
+			<a className="status" href="/images/SandeshPatilResume.pdf" target="_blank"> 
 				<div className="status_light"> 
 					<div className="status_light_ring"></div> 
 					<div className="status_light_led"></div> 
@@ -112,7 +112,7 @@ function Projects()
 							{/* <img src="./images/lets_code.png" alt="image" /> */}
 							<video 
 							ref={(el) => (videoRefs.current[0] = el)}
-							src="./images/PortfolioGenerator.mp4" autoplay loop muted playsInline preload="auto" controls >		
+							src="/images/PortfolioGenerator.mp4" autoplay loop muted playsInline preload="auto" controls >		
 							</video>
 							
 						</a> 
@@ -161,7 +161,7 @@ function Projects()
 							{/* <img src="./images/lets_code.png" alt="image" /> */}
 							<video 
 							ref={(el) => (videoRefs.current[1] = el)}
-							src="./images/snakeGameVid.mp4" autoplay loop muted playsInline preload="auto" controls >
+							src="/images/snakeGameVid.mp4" autoplay loop muted playsInline preload="auto" controls >
 								
 							</video>
 							
@@ -200,7 +200,7 @@ function Projects()
 							
 							<video 
 							ref={(el) => (videoRefs.current[2] = el)}
-							src="./images/vdocs.mp4" autoplay loop muted playsInline preload="auto" controls>
+							src="/images/vdocs.mp4" autoplay loop muted playsInline preload="auto" controls>
 								
 							</video>
 							
@@ -239,22 +239,22 @@ function Projects()
 function Certificates() {
 	const certificates = [
 		{
-			src: 'images/infosys-java-foundation-Certification.jpg',
+			src: '/images/infosys-java-foundation-Certification.jpg',
 			text: 'Infosys Java Foundation Certification',
 			link: '#link1',
 		},
 		{
-			src: 'images/Infosys-java-certificate.jpg',
+			src: '/images/Infosys-java-certificate.jpg',
 			text: 'Infosys Java-Course Certification',
 			link: '#link2',
 		},
 		{
-			src: 'images/Infosys-Data Structures and Algorithms using Java-certificate.jpg',
+			src: '/images/Infosys-Data Structures and Algorithms using Java-certificate.jpg',
 			text: 'Infosys-Data Structures & Algorithms using Java-certificate',
 			link: '#link3',
 		},
 		{
-			src: 'images/J.P. Morgan__completion_certificate.jpg',
+			src: '/images/J.P. Morgan__completion_certificate.jpg',
 			text: '"JPMorgan Software Engineering Simulation -Forage-Certificate',
 			link: '#link3',
 		},
@@ -315,7 +315,7 @@ function Footer() {
 				<span>
 					Sandesh Patil
 				</span> 
-				<img className="emoji" src="images/rockon.png" alt="emoji" /> 
+				<img className="emoji" src="/images/rockon.png" alt="emoji" /> 
 				<span>
 					01/01/2024
 				</span>
@@ -326,24 +326,24 @@ function Footer() {
 				{/* <span className="text">
 					email
 				</span>  */}
-				<img src="images/email.svg" alt="email" />
+				<img src="/images/email.svg" alt="email" />
 			</a>
 			<a href="https://www.linkedin.com/in/sandesh-patil-83691a294/" target="_blank" title="linkedin"> 
 				{/* <span className="text">
 					linkedin
 				</span> */}
-				<img src="images/linkedin.svg" alt="linkedin" id='lin'/>
+				<img src="/images/linkedin.svg" alt="linkedin" id='lin'/>
 			</a>
 			<a href="https://github.com/Sandesh3011" target="_blank" title="GitHub"> 
 				{/* <span className="text">
 					instagram
 				</span>  */}
-				<img src="images/github-mark.svg" alt="GitHub"  id='git'/>
+				<img src="/images/github-mark.svg" alt="GitHub"  id='git'/>
 			</a>
 		</div>
  	</footer>
 	<button id="top-button" style={{ display: 'inline-block' }} onClick={scrollToTop}>  
-		<img src="images/finger-up-emoji-clipart-21.png" alt="" /> 
+		<img src="/images/finger-up-emoji-clipart-21.png" alt="" /> 
 	</button>
     </>
   )
@@ -391,7 +391,7 @@ function App() {
 <nav className="bg-white border-gray-200 dark:bg-gray-900 " >
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="https://www.linkedin.com/in/sandesh-patil-83691a294/" className="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src="src/assets/SSP.jpg" className="h-10  rounded-md" alt="photo" />
+        <img src="/images/SSP.jpg" className="h-10  rounded-md" alt="photo" />
         <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Sandesh Patil</span>
     </a>
     <button   ref={buttonRef} onClick={() => setIsMenuOpen(!isMenuOpen)} data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
