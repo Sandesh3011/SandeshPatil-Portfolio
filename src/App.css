@@ -138,7 +138,7 @@ section.fadeIn{
 }
 
 .sun {
-  background: url('images/sunimg.png') no-repeat center;
+  background: url('/images/sunimg.png') no-repeat center;
   background-size: 100%;
   background-color:#e0e0e0;
  
@@ -149,7 +149,7 @@ section.fadeIn{
 
 .moon {
   
-  background: url('images/moonimg.png') no-repeat center;
+  background: url('/images/moonimg.png') no-repeat center;
   background-size: 100%;
   background-color:#e0e0e0;
  
@@ -182,8 +182,8 @@ section.fadeIn{
 }
 
 .switch-wrapper .toggle-wrapper label:after {
-  background: url('images/sunimg.png') no-repeat center;
-  content: url('images/sunimg.png');
+  background: url('/images/sunimg.png') no-repeat center;
+  content: url('/images/sunimg.png');
   position: absolute;
   left: 2px;
   top :1px;
@@ -315,7 +315,7 @@ animation-iteration-count: infinite;
 }
 
 .intro_hello .wave-hand {
-  background-image: url(images/waving-hand.png);
+  background-image: url(/images/waving-hand.png);
   margin-left: 10px;
   cursor: pointer;
   position:relative;
