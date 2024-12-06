@@ -147,7 +147,7 @@ function Projects()
 					<div className="project_links"> 
 							<a href="https://portfolio-generator-41a5a.firebaseapp.com/" target="_blank" className='project_used_item'>
 								{/* <img src="images/" alt="image" /> */}
-								Visit Project &#10138;
+								Visit Project&#10138;
 							</a>
 							{/* <a href="#link" target="_blank">
 								<img src="images/" alt="image" />
@@ -193,7 +193,7 @@ function Projects()
 					<div className="project_links"> 
 							<a href="https://sandesh3011.github.io/Snake-Game-Project/" target="_blank" className='project_used_item'>
 								{/* <img src="images/" alt="image" /> */}
-								Visit Project &#10138;
+								Visit Project&#10138;
 							</a>
 					</div>
 				</details>
@@ -230,7 +230,7 @@ function Projects()
 						<div className="project_links"> 
 							<a href="https://github.com/Sandesh3011/Virtual-Document-Locked" target="_blank" className='project_used_item'>
 								{/* <img src="images/" alt="image" /> */}
-								Visit Project &#x279A;
+								Visit Project&#x279A;
 							</a>
 					</div>
 					</div>
