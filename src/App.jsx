@@ -46,15 +46,18 @@ function Skills(){
         </div>
         <ul className="skills_category_item">Technical Skills</ul>
         <ul className="skills_category_item">problen solving</ul>
+		<ul className="skills_category_item">Critical Thinking</ul>
         <ul className="skills_category_item">Collaboration</ul>
         <ul className="skills_category_item">Adaptability & Continuous Learning</ul>
         </div>
         <div className="skills_category">
           <div className="skills_category_lable">Language</div>
           <ul className="skills_category_item">java</ul>
+		  <ul className="skills_category_item">C and C++</ul>
           <ul className="skills_category_item">javascript</ul>
           <ul className="skills_category_item">html5</ul>
           <ul className="skills_category_item">css</ul>
+		  <ul className="skills_category_item">React Js</ul>
           <ul className="skills_category_item">sql</ul>
         </div>
       <div className="skills_category">
@@ -70,6 +73,8 @@ function Skills(){
         <div className="skills_category_lable">
           Tools
         </div>
+		<ul className="skills_category_item">DBMS</ul>
+		<ul className="skills_category_item">Visual Studio Code</ul>
         <ul className="skills_category_item">MYSQL</ul>
         <ul className="skills_category_item">GIT & GITHUB</ul>
         <ul className="skills_category_item">API</ul>
