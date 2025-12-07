@@ -57,7 +57,7 @@ function Background() {
           </p>
 
           <a
-            className="status"
+            className="status"  
             href="/images/SandeshPatilResume.pdf"
             target="_blank"
           >
