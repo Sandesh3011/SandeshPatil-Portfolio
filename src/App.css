@@ -1499,7 +1499,8 @@ body.night .experience .job_time, body.night .footer_copyright, body.night .intr
 }
 
 .hero-description {
-  font-size: 1.15rem;
+  font-family: inherit;   /* uses same font as the page */
+  font-size: 1.2rem;
   line-height: 1.8;
   color: #444;
   max-width: 650px;
