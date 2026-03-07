@@ -1497,3 +1497,10 @@ body.night .experience .job_time, body.night .footer_copyright, body.night .intr
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
+
+.hero-description {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: #444;
+  max-width: 650px;
+}

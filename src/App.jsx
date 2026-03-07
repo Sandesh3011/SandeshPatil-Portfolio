@@ -645,12 +645,11 @@ function App() {
               <br />
             </div>
           </div>
-          <span>
+          <span className="hero-description">
             {/* I focused on developing and designing products for the web, from
             simple landing pages to full-fledged web apps. */}
             I build scalable and responsive web applications
             using Java, Spring Boot, React, and modern web technologies.
-
             From simple landing pages to full-stack platforms,
             I enjoy solving real-world problems through clean code.
           </span>
