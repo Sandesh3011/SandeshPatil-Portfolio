@@ -25,7 +25,7 @@ function Background() {
                 href="https://www.msbecl.ac.in/"
                 target="_blank"
               >
-                M S Bidve Engineering, Latur
+                M S Bidve Engineering College, Latur
               </a>
             </span>
             , affiliated with
@@ -34,18 +34,18 @@ function Background() {
                 Dr. Babasaheb Ambedkar Technological University
               </a>
             </span>
-            . I am currently pursuing the PG-DAC (Post Graduate Diploma in
-            Advanced Computing) program from
+            {/* . I am currently pursuing the PG-DAC (Post Graduate Diploma in
+            Advanced Computing) program from */}
+
+            I recently completed the PG-DAC (Post Graduate Diploma in Advanced Computing)
+            from
             <span>
               <a class="study-link" href="https://www.cdac.in/" target="_blank">
                 CDAC IET Pune
               </a>
             </span>
-            . Through this program, I am strengthening my expertise in advanced
-            computing, software development, data structures, algorithms, and
-            industry-focused technologies, while also working on hands-on
-            projects that enhance my practical skills and professional
-            experience.
+            . where I strengthened my skills in full-stack development using technologies
+            like Java, Spring Boot, React, ASP.NET Core, and modern software engineering practices.
           </p>
 
           <p>
@@ -110,6 +110,7 @@ function Skills() {
               <div className="skills_category_lable">framework</div>
               <ul className="skills_category_list">
                 <li className="skills_category_item">Spring Boot</li>
+                <li className="skills_category_item">ASP.NET Core</li>
 				<li className="skills_category_item">Hibernate</li>
 				<li className="skills_category_item">React.js</li>
                 <li className="skills_category_item">Tailwind</li>
@@ -625,7 +626,7 @@ function App() {
           <span id="wave" className="emoji wave-hand animated "></span>
         </h1>
         <h2 className="intro_tagline">
-          I'm <div className="myname">sandesh patil</div> a design-minded
+          I'm <div className="myname">sandesh patil</div>, a design-minded
           <br />
           <br />
           <br />
@@ -635,17 +636,23 @@ function App() {
                 <ul className="list">
                   {/* <li className="item"> Front End Developer.</li>
 							<li className="item">Back End Developer. </li> */}
-                  <li className="item">Full Stack Developer. </li>
-                  <li className="item">Java Developer.</li>
-                  <li className="item">Backend Developer. </li>
+                 
+                  <li className="item">Java Full Stack Developer.</li>
+                  <li className="item">Spring Boot Backend Developer. </li>
+                   <li className="item">Full Stack Web Developer. </li>
                 </ul>
               </div>
               <br />
             </div>
           </div>
           <span>
-            I focused on developing and designing products for the web, from
-            simple landing pages to full-fledged web apps.
+            {/* I focused on developing and designing products for the web, from
+            simple landing pages to full-fledged web apps. */}
+            I build scalable and responsive web applications
+            using Java, Spring Boot, React, and modern web technologies.
+
+            From simple landing pages to full-stack platforms,
+            I enjoy solving real-world problems through clean code.
           </span>
           <span id="emojiwavehand" className="emoji technologist"></span>
         </h2>
